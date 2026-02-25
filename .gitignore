@@ -1,0 +1,15 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Temp / helper scripts
+calc_stations.cjs
+check_svg.cjs
+fix_svg.cjs
+cwa-resp-tmp.json
+node-cwa-test.json

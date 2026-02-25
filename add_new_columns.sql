@@ -1,0 +1,2 @@
+ALTER TABLE weather_data ADD COLUMN IF NOT EXISTS sunshine REAL;
+ALTER TABLE weather_data ADD COLUMN IF NOT EXISTS wind_dir REAL;
