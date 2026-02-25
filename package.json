@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit",
-    "server": "tsx watch server/index.ts",
+    "server": "tsx watch api/index.ts",
     "start:all": "concurrently \"npm run dev\" \"npm run server\""
   },
   "dependencies": {
